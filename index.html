@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyPrime | Best Billing Software Solutions</title>
+    
+<script src="https://cdn.tailwindcss.com"></script>
+    
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb; /* Light off-white background */
+        }
+        
+        /* Custom styling for subtle glow on CTA button */
+        .cta-glow {
+            transition: all 0.3s ease;
+        }
+
+        /* Animation Keyframes: Updated shadow color to a vibrant red */
+        @keyframes ctaPulse {
+            0% { transform: scale(1); box-shadow: 0 4px 15px 0 rgba(239, 68, 68, 0.7); } /* Red-500 equivalent */
+            50% { transform: scale(1.02); box-shadow: 0 6px 20px 0 rgba(239, 68, 68, 0.9); } /* Red-500 equivalent */
+            100% { transform: scale(1); box-shadow: 0 4px 15px 0 rgba(239, 68, 68, 0.7); } /* Red-500 equivalent */
+        }
+        
+        /* Apply the pulse animation */
+        .cta-pulse-animate {
+            animation: ctaPulse 2.5s infinite ease-in-out;
+        }
+
+        /* --- Custom CSS for Circular Progress Bar (Speed Dashboard) --- */
+        .progress-circle {
+            /* Rotate the circle so the starting point is at the top */
+            transform: rotate(-90deg);
+        }
+        .progress-circle .meter {
+            /* 2 * PI * 40 (radius) = approx 251.3 */
+            stroke-dasharray: 251.3; 
+            stroke-dashoffset: 251.3;
+            /* Smooth transition for the animation */
+            transition: stroke-dashoffset 0.5s ease-out;
+        }
+
+        /* --- Custom CSS for Review Slideshow --- */
+        .review-card {
+            transition: opacity 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body class="text-gray-700">
+
+    
+<header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            
+<a href="#home" class="text-2xl font-bold text-sky-600 hover:text-red-600 transition duration-150">
+                KeyPrime
+            </a>
+            
+<nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#features" class="hover:text-red-600 transition duration-150">Features</a>
+                <a href="#speed" class="hover:text-red-600 transition duration-150">Speed</a>
+                <a href="#reviews" class="hover:text-red-600 transition duration-150">Reviews</a>
+                <a href="#how-it-works" class="hover:text-red-600 transition duration-150">How It Works</a>
+                <a href="#industries" class="hover:text-red-600 transition duration-150">Industries</a>
+                <a href="#about" class="hover:text-red-600 transition duration-150">Why Us?</a>
+                <a href="#contact" class="hover:text-red-600 transition duration-150">Contact</a>
+            </nav>
+            
+<a href="#demo" class="hidden md:block bg-sky-600 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-sky-700 transition duration-150">
+                Login / Demo
+            </a>
+            
+<button class="md:hidden p-2 text-sky-600 hover:text-red-600 transition duration-150" aria-label="Toggle Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    
+<section class="bg-sky-500 text-white pt-16 pb-20 md:pt-24 md:pb-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 animate-on-scroll">
+                The <span class="text-red-500">Smartest Billing</span> Software for Indian Businesses
+            </h1>
+            <p class="text-xl sm:text-2xl max-w-3xl mx-auto mb-10 opacity-90 animate-on-scroll" style="transition-delay: 100ms;">
+                Simplify GST, manage inventory, and handle accounts with KeyPrime—the ultimate POS solution designed for rapid growth.
+            </p>
+            
+<a href="#demo" class="inline-block bg-red-500 text-white font-bold text-lg px-10 py-4 rounded-full cta-glow shadow-xl uppercase tracking-wider cta-pulse-animate animate-on-scroll" style="transition-delay: 200ms;">
+                Book a Free Demo Today
+            </a>
+            <p class="mt-4 text-sm opacity-80 animate-on-scroll" style="transition-delay: 300ms;">Over 2000+ satisfied customers across India.</p>
+        </div>
+    </section>
+
+    
+<section class="py-6 bg-white shadow-inner animate-on-scroll">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm font-semibold uppercase text-gray-400 mb-4">Trusted by 2000+ businesses and featured in top media outlets:</p>
+            <div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-4">
+                
+<div class="text-xl font-bold text-gray-500">
+                    <span class="text-sky-600">Business</span>Today
+                </div>
+                <div class="text-xl font-bold text-gray-500">
+                    <span class="text-red-600">Startup</span>India
+                </div>
+                <div class="text-xl font-bold text-gray-500">
+                    <span class="text-sky-600">Economic</span>Times
+                </div>
+                <div class="text-xl font-bold text-gray-500">
+                    <span class="text-red-600">Digital</span>Finance
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<section id="about" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-sky-600 mb-12 animate-on-scroll">Why KeyPrime is Your Ultimate Choice</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                
+<div class="text-center p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300 animate-on-scroll" style="transition-delay: 100ms;">
+                    <div class="text-red-600 mb-3 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.727A8 8 0 016.343 5.273v11.454L4 18l5.414 1.586a2 2 0 001.414 0L17 18l-2.343-1.273zM10.5 13a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0z" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-sky-600 mb-2">Local Support</h3>
+                    <p class="text-gray-600 text-sm">Mumbai-based company ensuring rapid, localized support and understanding of Indian compliance.</p>
+                </div>
+                
+<div class="text-center p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300 animate-on-scroll" style="transition-delay: 200ms;">
+                    <div class="text-red-600 mb-3 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-sky-600 mb-2">24/7 Instant Help</h3>
+                    <p class="text-gray-600 text-sm">Our team of 'ninjas' provides lightning-fast problem-solving with remote access support.</p>
+                </div>
+                
+<div class="text-center p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300 animate-on-scroll" style="transition-delay: 300ms;">
+                    <div class="text-red-600 mb-3 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.24A9.954 9.954 0 0012 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10c0-1.75-.45-3.414-1.242-4.854z" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-sky-600 mb-2">Bug-Free Guarantee</h3>
+                    <p class="text-gray-600 text-sm">We ensure a bug and error-free experience, with timely updates for GST and taxation formats.</p>
+                </div>
+                
+<div class="text-center p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300 animate-on-scroll" style="transition-delay: 400ms;">
+                    <div class="text-red-600 mb-3 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2h1c1.657 0 3 .895 3 2s-1.343 2-3 2H8m0 0l-1.5 1.5m1.5-1.5l1.5-1.5m3.5-6h-3.5a3.5 3.5 0 00-3.5 3.5v7a3.5 3.5 0 003.5 3.5h3.5" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-sky-600 mb-2">Value for Money</h3>
+                    <p class="text-gray-600 text-sm">An affordable system packed with all the features required to manage your business effectively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<section id="features" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 animate-on-scroll">
+                <span class="text-red-700 font-semibold uppercase tracking-widest text-sm">Power-Packed Solutions</span>
+                <h2 class="text-4xl font-extrabold text-sky-600 mt-2">Features That Drive Your Business</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                
+<div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-red-600 transform hover:scale-[1.02] transition duration-300 animate-on-scroll" style="transition-delay: 50ms;">
+                    <div class="text-red-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-sky-600 mb-3">Accurate GST Filing</h3>
+                    <p class="text-gray-600">Generate accurate GST Reports in CA-acceptable formats, ensuring smooth filing on Government portals every time.</p>
+                </div>
+
+                
+<div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-sky-500 transform hover:scale-[1.02] transition duration-300 animate-on-scroll" style="transition-delay: 150ms;">
+                    <div class="text-sky-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7V4c0-1.105 3.582-2 8-2s8 .895 8 2v3" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-sky-600 mb-3">Total Stock Control</h3>
+                    <p class="text-gray-600">Ultimate control over your investment. Get quick, location-wise stock reports, stock evaluation, and manage loose/pack quantities.</p>
+                </div>
+
+                
+<div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-red-600 transform hover:scale-[1.02] transition duration-300 animate-on-scroll" style="transition-delay: 250ms;">
+                    <div class="text-red-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6h-4m2-2v4" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-sky-600 mb-3">Seamless Tally Export</h3>
+                    <p class="text-gray-600">Transfer all your accounting ledgers and voucher entries to TALLY in just one click, multiple times, effortlessly.</p>
+                </div>
+
+                
+<div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-sky-500 transform hover:scale-[1.02] transition duration-300 animate-on-scroll" style="transition-delay: 350ms;">
+                    <div class="text-sky-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-sky-600 mb-3">Barcode & Speed Checkout</h3>
+                    <p class="text-gray-600">Generate custom barcodes and use quick, accurate scanning for rapid sales and purchase returns, minimizing checkout time.</p>
+                </div>
+
+                
+<div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-red-600 transform hover:scale-[1.02] transition duration-300 animate-on-scroll" style="transition-delay: 450ms;">
+                    <div class="text-red-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.466 9.574 5 8 5c-4 0-4 4-4 4v3.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 004 17h16a1 1 0 00.707-.293l-1.414-1.414a1 1 0 01-.293-.707V9c0-2.21 0-4-4-4-1.574 0-2.832.466-4 1.253z" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-sky-600 mb-3">Auto Account Recording</h3>
+                    <p class="text-gray-600">Fully automatic transaction recording, managing everything from expenses to Final Accounts like P&L and Balance Sheet.</p>
+                </div>
+
+                
+<div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-sky-500 transform hover:scale-[1.02] transition duration-300 animate-on-scroll" style="transition-delay: 550ms;">
+                    <div class="text-sky-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z" /><path stroke-linecap="round" stroke-linejoin="round" d="M11 7h2m-2-4h2" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-sky-600 mb-3">User Level Security</h3>
+                    <p class="text-gray-600 text-sm">Restrict employee actions and data access in various sections, giving you complete control over business information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real-Time Speed Dashboard -->
+    <section id="speed" class="py-16 md:py-24 bg-sky-900 text-white animate-on-scroll">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-16">
+                <span class="text-red-400 font-semibold uppercase tracking-widest text-sm">KeyPrime Performance</span>
+                <h2 class="text-4xl font-extrabold text-white mt-2">The Real-Time Speed Dashboard</h2>
+                <p class="text-lg mt-3 text-sky-200 max-w-2xl mx-auto">See how fast and reliable KeyPrime operates, even under heavy load. This is a live, simulated performance snapshot.</p>
+            </div>
+
+            <!-- Dashboard Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Metric 1: Invoices/sec -->
+                <div class="bg-sky-800 p-8 rounded-xl shadow-2xl">
+                    <h3 class="text-lg font-semibold mb-6 text-sky-200">Invoices Processed Per Second (Avg)</h3>
+                    <div class="relative w-40 h-40 mx-auto">
+                        <svg class="progress-circle w-full h-full" viewBox="0 0 100 100">
+                            <!-- Background Circle -->
+                            <circle class="bg-circle" cx="50" cy="50" r="40" stroke="#06548a" stroke-width="12" fill="none"></circle>
+                            <!-- Foreground Meter (Red for speed) -->
+                            <circle id="invoices-meter" class="meter" cx="50" cy="50" r="40" stroke="#f87171" stroke-width="12" fill="none" stroke-linecap="round"></circle>
+                        </svg>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <span id="invoices-value" class="text-4xl font-extrabold text-red-400">0</span>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-sky-300">Ultra-fast transaction handling.</p>
+                </div>
+
+                <!-- Metric 2: Server Uptime -->
+                <div class="bg-sky-800 p-8 rounded-xl shadow-2xl flex flex-col justify-center">
+                    <h3 class="text-lg font-semibold mb-4 text-sky-200">Server Uptime</h3>
+                    <!-- This value is only updated on the decimal part for effect -->
+                    <div class="text-6xl font-extrabold text-sky-400">99.<span id="uptime-value">99</span>%</div>
+                    <p class="mt-4 text-sky-300">Guaranteed stability for mission-critical operations.</p>
+                </div>
+
+                <!-- Metric 3: Response Latency -->
+                <div class="bg-sky-800 p-8 rounded-xl shadow-2xl">
+                    <h3 class="text-lg font-semibold mb-6 text-sky-200">Average Response Latency</h3>
+                    <div class="relative w-40 h-40 mx-auto">
+                        <svg class="progress-circle w-full h-full" viewBox="0 0 100 100">
+                            <!-- Background Circle -->
+                            <circle class="bg-circle" cx="50" cy="50" r="40" stroke="#06548a" stroke-width="12" fill="none"></circle>
+                            <!-- Foreground Meter (Blue for low latency) -->
+                            <circle id="latency-meter" class="meter" cx="50" cy="50" r="40" stroke="#38bdf8" stroke-width="12" fill="none" stroke-linecap="round"></circle>
+                        </svg>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <span id="latency-value" class="text-4xl font-extrabold text-sky-400">0</span><span class="text-xl ml-1 mt-2 text-sky-300">ms</span>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-sky-300">Near-instant data synchronization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DYNAMIC REVIEW SLIDESHOW -->
+    <section id="reviews" class="py-16 md:py-24 bg-sky-50 animate-on-scroll">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-red-700 font-semibold uppercase tracking-widest text-sm">Validated Success</span>
+                <h2 class="text-4xl font-extrabold text-sky-600 mt-2">What Our Customers Say</h2>
+            </div>
+            
+            <div class="relative bg-white p-8 rounded-xl shadow-2xl border-t-4 border-red-500">
+                <!-- Review Content Area -->
+                <div id="review-content" class="min-h-[150px] review-card flex flex-col justify-center">
+                    <!-- Dynamic review content inserted here by JS -->
+                    <div class="text-center text-gray-500 italic">Loading customer reviews...</div>
+                </div>
+
+                <!-- Slideshow Controls -->
+                <div class="flex justify-between items-center mt-6 pt-4 border-t border-gray-100">
+                    <button id="prev-review" onclick="prevReview()" class="p-3 bg-red-50 text-red-600 rounded-full hover:bg-red-100 transition duration-150 disabled:opacity-50 disabled:cursor-not-allowed shadow-md" aria-label="Previous Review">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    </button>
+                    <div id="review-indicator" class="text-sm font-medium text-gray-600"></div>
+                    <button id="next-review" onclick="nextReview()" class="p-3 bg-red-50 text-red-600 rounded-full hover:bg-red-100 transition duration-150 disabled:opacity-50 disabled:cursor-not-allowed shadow-md" aria-label="Next Review">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section id="how-it-works" class="py-16 md:py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <span class="text-red-700 font-semibold uppercase tracking-widest text-sm">Get Started in Minutes</span>
+                <h2 class="text-4xl font-extrabold text-sky-600 mt-2">The 3-Step Path to Stress-Free Billing</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+                
+<div class="flex flex-col items-center text-center animate-on-scroll" style="transition-delay: 50ms;">
+                    <div class="relative mb-6">
+                        
+<div class="w-16 h-16 bg-red-500 text-white flex items-center justify-center rounded-full text-2xl font-bold shadow-lg ring-4 ring-red-200">
+                            1
+                        </div>
+                        
+<div class="absolute -bottom-1 -right-1 w-8 h-8 bg-sky-600 text-white rounded-full flex items-center justify-center p-1 border-2 border-white">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v-1a4 4 0 014-4h8a4 4 0 014 4v1m-6-4l-2 2-2-2" /></svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-sky-600 mb-2">Setup Your Profile</h3>
+                    <p class="text-gray-600">Quickly enter your business details, GST number, and bank accounts to get the software ready.</p>
+                </div>
+
+                
+<div class="flex flex-col items-center text-center animate-on-scroll" style="transition-delay: 150ms;">
+                    <div class="relative mb-6">
+                        
+<div class="w-16 h-16 bg-red-500 text-white flex items-center justify-center rounded-full text-2xl font-bold shadow-lg ring-4 ring-red-200">
+                            2
+                        </div>
+                        
+<div class="absolute -bottom-1 -right-1 w-8 h-8 bg-sky-600 text-white rounded-full flex items-center justify-center p-1 border-2 border-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-sky-600 mb-2">Manage Stock & Prices</h3>
+                    <p class="text-gray-600">Effortlessly add your product inventory, set tax rates, and define custom pricing schemes.</p>
+                </div>
+
+                
+<div class="flex flex-col items-center text-center animate-on-scroll" style="transition-delay: 250ms;">
+                    <div class="relative mb-6">
+                        
+<div class="w-16 h-16 bg-red-500 text-white flex items-center justify-center rounded-full text-2xl font-bold shadow-lg ring-4 ring-red-200">
+                            3
+                        </div>
+                        
+<div class="absolute -bottom-1 -right-1 w-8 h-8 bg-sky-600 text-white rounded-full flex items-center justify-center p-1 border-2 border-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m-3 3v6m-4-2h8m4 0H7a2 2 0 00-2 2v4m4-4H7a2 2 0 00-2 2v4m4-4h8a2 2 0 00-2-2h-4a2 2 0 00-2 2v4m4-4H9a2 2 0 00-2-2h-4a2 2 0 00-2 2v4" /></svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-sky-600 mb-2">Generate Your First Invoice</h3>
+                    <p class="text-gray-600">Start issuing professional invoices, tracking payments, and viewing real-time reports instantly.</p>
+                </div>
+            </div>
+            
+<div class="text-center mt-12 animate-on-scroll" style="transition-delay: 350ms;">
+                <a href="#demo" class="inline-block bg-sky-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-sky-700 transition duration-300">
+                    See How Easy It Is
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+<section id="industries" class="py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 animate-on-scroll">
+                <span class="text-sky-600 font-semibold uppercase tracking-widest text-sm">Made for You</span>
+                <h2 class="text-4xl font-extrabold text-sky-600 mt-2">Serving a Wide Spectrum of Industries</h2>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
+                
+<div class="p-4 rounded-xl bg-white shadow-md hover:bg-red-50 transition duration-300 transform hover:scale-105 animate-on-scroll" style="transition-delay: 50ms;">
+                    <span class="text-4xl">💊</span>
+                    <p class="mt-2 text-sm font-semibold text-gray-700">Medical Stores</p>
+                </div>
+                
+<div class="p-4 rounded-xl bg-white shadow-md hover:bg-red-50 transition duration-300 transform hover:scale-105 animate-on-scroll" style="transition-delay: 100ms;">
+                    <span class="text-4xl">🛒</span>
+                    <p class="mt-2 text-sm font-semibold text-gray-700">General Retail</p>
+                </div>
+                
+<div class="p-4 rounded-xl bg-white shadow-md hover:bg-red-50 transition duration-300 transform hover:scale-105 animate-on-scroll" style="transition-delay: 150ms;">
+                    <span class="text-4xl">🏪</span>
+                    <p class="mt-2 text-sm font-semibold text-gray-700">Super Markets</p>
+                </div>
+                
+<div class="p-4 rounded-xl bg-white shadow-md hover:bg-red-50 transition duration-300 transform hover:scale-105 animate-on-scroll" style="transition-delay: 200ms;">
+                    <span class="text-4xl">🔧</span>
+                    <p class="mt-2 text-sm font-semibold text-gray-700">Hardware & Parts</p>
+                </div>
+                
+<div class="p-4 rounded-xl bg-white shadow-md hover:bg-red-50 transition duration-300 transform hover:scale-105 animate-on-scroll" style="transition-delay: 250ms;">
+                    <span class="text-4xl">👕</span>
+                    <p class="mt-2 text-sm font-semibold text-gray-700">Garments & Apparel</p>
+                </div>
+                
+<div class="p-4 rounded-xl bg-white shadow-md hover:bg-red-50 transition duration-300 transform hover:scale-105 animate-on-scroll" style="transition-delay: 300ms;">
+                    <span class="text-4xl">🏭</span>
+                    <p class="mt-2 text-sm font-semibold text-gray-700">Small Manufacturing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<section id="demo" class="py-16 bg-sky-600 animate-on-scroll">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-6 md:mb-0">
+                Ready to Simplify Your Business?
+                <span class="block text-red-500 text-lg font-normal mt-1">Book your free, no-obligation demonstration now.</span>
+            </h2>
+            <a href="tel:+919619455753" class="inline-block bg-red-500 text-white font-bold text-lg px-8 py-3 rounded-full cta-glow shadow-xl uppercase tracking-wider hover:scale-105 transition duration-300">
+                Call Now: +91 9619455753
+            </a>
+        </div>
+    </section>
+
+    
+<footer id="contact" class="bg-gray-800 text-white pt-12 pb-8 animate-on-scroll">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                
+<div>
+                    <h3 class="text-xl font-bold text-red-500 mb-4">KeyPrime</h3>
+                    <p class="text-sm mb-2">Billing Software Solutions</p>
+                    <p class="text-sm">
+                        <span class="font-semibold">Email:</span> info@keyprime.in
+                    </p>
+                    <p class="text-sm">
+                        <span class="font-semibold">Support:</span> support@keyprime.in
+                    </p>
+                </div>
+                
+<div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#features" class="hover:text-red-500 transition duration-150">Product Features</a></li>
+                        <li><a href="#how-it-works" class="hover:text-red-500 transition duration-150">How It Works</a></li>
+                        <li><a href="#industries" class="hover:text-red-500 transition duration-150">Industries Served</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition duration-150">Login</a></li>
+                        <li><a href="#demo" class="hover:text-red-500 transition duration-150">Request Demo</a></li>
+                    </ul>
+                </div>
+                
+<div>
+                    <h3 class="text-lg font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-red-500 transition duration-150">FAQs</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition duration-150">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition duration-150">Disclaimer</a></li>
+                    </ul>
+                </div>
+                
+<div class="col-span-2 md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
+                    <form>
+                        <input type="email" placeholder="Your Email Address" class="w-full p-2 rounded-lg bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-red-500">
+                        <button type="submit" class="w-full mt-3 bg-red-500 text-white font-semibold py-2 rounded-lg hover:bg-red-400 transition duration-150">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="mt-10 pt-6 border-t border-gray-700 text-center">
+                <p class="text-sm text-gray-400">© 2024 KeyPrime Business Solutions. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- Shared Helper Functions ---
+
+        /**
+         * Renders the star icons based on the rating number.
+         * @param {number} rating - The star rating (e.g., 4 or 5).
+         * @returns {string} HTML string of star icons.
+         */
+        function renderStars(rating) {
+            let stars = '';
+            for (let i = 1; i <= 5; i++) {
+                if (i <= rating) {
+                    stars += `<span class="text-red-500">★</span>`; // Filled star
+                } else {
+                    stars += `<span class="text-gray-300">★</span>`; // Empty star
+                }
+            }
+            return stars;
+        }
+
+        // --- Global State for Review Slideshow ---
+        const reviews = [
+            {
+                name: "Manish Sharma",
+                rating: 5,
+                title: "Incredibly Fast & Reliable!",
+                comment: "We switched from Tally and the GST filing process is night and day. KeyPrime makes compliance so easy.",
+                avatar: "https://placehold.co/40x40/f97316/ffffff?text=MS"
+            },
+            {
+                name: "Priya Patel",
+                rating: 5,
+                title: "Perfect for our Retail Store",
+                comment: "The barcode scanning and speed checkout feature is essential for our high-volume store. Zero complaints from my staff.",
+                avatar: "https://placehold.co/40x40/10b981/ffffff?text=PP"
+            },
+            {
+                name: "Gautam Singh (CA)",
+                rating: 4,
+                title: "Great Audit Trail for Accounts",
+                comment: "As an accountant, the seamless Tally export saves me hours every month. The auto-account recording is accurate.",
+                avatar: "https://placehold.co/40x40/60a5fa/ffffff?text=GS"
+            },
+            {
+                name: "Rohan Kulkarni",
+                rating: 5,
+                title: "Exceptional Local Support",
+                comment: "Had a small query late at night, and the Mumbai-based team solved it instantly. That localized support is invaluable.",
+                avatar: "https://placehold.co/40x40/ef4444/ffffff?text=RK"
+            },
+        ];
+
+        let currentReviewIndex = 0;
+
+        // --- Function to update the slideshow ---
+        function updateSlideshow() {
+            const reviewContainer = document.getElementById('review-content');
+            const indicator = document.getElementById('review-indicator');
+            const prevButton = document.getElementById('prev-review');
+            const nextButton = document.getElementById('next-review');
+            
+            if (reviews.length === 0) {
+                reviewContainer.innerHTML = '<p class="text-center text-gray-500">No reviews yet.</p>';
+                prevButton.disabled = true;
+                nextButton.disabled = true;
+                indicator.textContent = '0 of 0';
+                return;
+            }
+
+            const review = reviews[currentReviewIndex];
+            
+            // Start fade out
+            reviewContainer.style.opacity = '0'; 
+
+            setTimeout(() => {
+                // Update Review Content
+                reviewContainer.innerHTML = `
+                    <div class="flex items-start space-x-6">
+                        <img class="w-16 h-16 rounded-full object-cover shadow-lg flex-shrink-0" src="${review.avatar}" alt="${review.name} Avatar" onerror="this.onerror=null;this.src='https://placehold.co/64x64/000/fff?text=${review.name.charAt(0)}';" >
+                        <div class="flex-grow">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-1">${review.title}</h3>
+                            <div class="flex items-center text-lg mb-3">
+                                ${renderStars(review.rating)}
+                            </div>
+                            <blockquote class="text-gray-700 italic text-xl leading-relaxed">
+                                "${review.comment}"
+                            </blockquote>
+                            <p class="mt-4 text-lg font-semibold text-sky-600">— ${review.name}</p>
+                        </div>
+                    </div>
+                `;
+                // Fade in new content
+                reviewContainer.style.opacity = '1'; 
+            }, 250); // Match transition duration
+
+            // Update Controls State
+            prevButton.disabled = currentReviewIndex === 0;
+            nextButton.disabled = currentReviewIndex === reviews.length - 1;
+            
+            // Update Indicator
+            indicator.textContent = `Review ${currentReviewIndex + 1} of ${reviews.length}`;
+        }
+
+        // Navigation functions (exposed to the global scope for onclick)
+        window.nextReview = function() {
+            if (currentReviewIndex < reviews.length - 1) {
+                currentReviewIndex++;
+                updateSlideshow();
+            }
+        }
+
+        window.prevReview = function() {
+            if (currentReviewIndex > 0) {
+                currentReviewIndex--;
+                updateSlideshow();
+            }
+        }
+        
+        // --- Existing Scroll Reveal (Fade-In-Up) Animation ---
+        
+        // Set up the Intersection Observer
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('opacity-0', 'translate-y-4');
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            rootMargin: '0px',
+            threshold: 0.1 
+        });
+
+        // Select elements to animate
+        const animatedElements = document.querySelectorAll('.animate-on-scroll');
+        animatedElements.forEach(element => {
+            element.classList.add('opacity-0', 'translate-y-4', 'transition', 'duration-700', 'ease-out');
+            const delay = element.style.transitionDelay;
+            element.style.transitionDelay = delay || '0ms'; 
+            observer.observe(element);
+        });
+        
+        // --- Real-Time Speed Dashboard Simulation ---
+        const circumference = 2 * Math.PI * 40; // Approx 251.3 for r=40
+
+        function updateSpeedDashboard() {
+            // 1. Invoices Per Second (Value: 12-18)
+            const invoicesValueElement = document.getElementById('invoices-value');
+            const invoicesMeterElement = document.getElementById('invoices-meter');
+            
+            const currentInvoices = Math.floor(Math.random() * 7) + 12; 
+            invoicesValueElement.textContent = currentInvoices;
+            
+            const invoicesPercentage = Math.min(currentInvoices / 20, 1); 
+            const invoicesOffset = circumference * (1 - invoicesPercentage);
+            invoicesMeterElement.style.strokeDashoffset = invoicesOffset;
+
+            // 2. Latency (Value: 30-50ms)
+            const latencyValueElement = document.getElementById('latency-value');
+            const latencyMeterElement = document.getElementById('latency-meter');
+            
+            const currentLatency = Math.floor(Math.random() * 21) + 30; 
+            latencyValueElement.textContent = currentLatency;
+            
+            const latencyPercentage = 1 - (currentLatency / 100); 
+            const latencyOffset = circumference * latencyPercentage;
+            latencyMeterElement.style.strokeDashoffset = latencyOffset;
+
+            // 3. Uptime (Value: 99.9x)
+            const uptimeValueElement = document.getElementById('uptime-value');
+            const randomUptime = (Math.random() * 90 + 10).toFixed(2); 
+            uptimeValueElement.textContent = randomUptime.slice(0, 2); 
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize both dynamic components
+            updateSlideshow();
+            updateSpeedDashboard();
+            
+            // Set interval for speed dashboard to run every 2 seconds
+            setInterval(updateSpeedDashboard, 2000); 
+        });
+    </script>
+</body>
+</html>
